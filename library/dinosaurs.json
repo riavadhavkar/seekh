@@ -1,0 +1,387 @@
+[
+  {
+    "id": "Gryposaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/gryposaurus.jpg"
+  },
+  {
+    "id": "Titanosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/titanosaurus.jpg"
+  },
+  {
+    "id": "Emausaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/emausaurus.jpg"
+  },
+  {
+    "id": "Euskelosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/euskelosaurus.jpg"
+  },
+  {
+    "id": "Wendiceratops",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/wendiceratops.jpg"
+  },
+  {
+    "id": "Makhaira",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/makhaira.jpg"
+  },
+  {
+    "id": "Plesiohadros",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/plesiohadros.jpg"
+  },
+  {
+    "id": "Haopterus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/haopterus.jpg"
+  },
+  {
+    "id": "Albalophosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/albalophosaurus.jpg"
+  },
+  {
+    "id": "Piveteausaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/piveteausaurus.jpg"
+  },
+  {
+    "id": "Bonatitan",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/bonatitan.jpg"
+  },
+  {
+    "id": "Cuspicephalus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/cuspicephalus.jpg"
+  },
+  {
+    "id": "Beipiaosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/beipiaosaurus.jpg"
+  },
+  {
+    "id": "Comanchesaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/comanchesaurus.jpg"
+  },
+  {
+    "id": "Trinisaura",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/trinisaura.jpg"
+  },
+  {
+    "id": "Thapunngaka",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/thapunngaka.jpg"
+  },
+  {
+    "id": "Citipes",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/citipes.jpg"
+  },
+  {
+    "id": "Lophostropheus",
+    "period": "Triassic",
+    "image": "/dinosaurs/lophostropheus.jpg"
+  },
+  {
+    "id": "Zhejiangosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/zhejiangosaurus.jpg"
+  },
+  {
+    "id": "Liaoningotitan",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/liaoningotitan.jpg"
+  },
+  {
+    "id": "Xuanhanosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/xuanhanosaurus.jpg"
+  },
+  {
+    "id": "Marasuchus",
+    "period": "Triassic",
+    "image": "/dinosaurs/marasuchus.jpg"
+  },
+  {
+    "id": "Notatesseraeraptor",
+    "period": "Triassic",
+    "image": "/dinosaurs/notatesseraeraptor.jpg"
+  },
+  {
+    "id": "Lucianovenator",
+    "period": "Triassic",
+    "image": "/dinosaurs/lucianovenator.jpg"
+  },
+  {
+    "id": "Huayracursor",
+    "period": "Triassic",
+    "image": "/dinosaurs/huayracursor.jpg"
+  },
+  {
+    "id": "Halticosaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/halticosaurus.jpg"
+  },
+  {
+    "id": "Alwalkeria",
+    "period": "Triassic",
+    "image": "/dinosaurs/alwalkeria.jpg"
+  },
+  {
+    "id": "Antetonitrus",
+    "period": "Triassic",
+    "image": "/dinosaurs/antetonitrus.jpg"
+  },
+  {
+    "id": "Herrerasaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/herrerasaurus.jpg"
+  },
+  {
+    "id": "Powellvenator",
+    "period": "Triassic",
+    "image": "/dinosaurs/powellvenator.jpg"
+  },
+  {
+    "id": "Rhaeticosaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/rhaeticosaurus.jpg"
+  },
+  {
+    "id": "Alexeyisaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/alexeyisaurus.jpg"
+  },
+  {
+    "id": "Amanasaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/amanasaurus.jpg"
+  },
+  {
+    "id": "Silesaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/silesaurus.jpg"
+  },
+  {
+    "id": "Lutungutali",
+    "period": "Triassic",
+    "image": "/dinosaurs/lutungutali.jpg"
+  },
+  {
+    "id": "Isanosaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/isanosaurus.jpg"
+  },
+  {
+    "id": "Velocipes",
+    "period": "Triassic",
+    "image": "/dinosaurs/velocipes.jpg"
+  },
+  {
+    "id": "Crosbysaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/crosbysaurus.jpg"
+  },
+  {
+    "id": "Orosaurus",
+    "period": "Triassic",
+    "image": "/dinosaurs/orosaurus.jpg"
+  },
+  {
+    "id": "Enigmacursor",
+    "period": "Jurassic",
+    "image": "/dinosaurs/enigmacursor.jpg"
+  },
+  {
+    "id": "Yuzhoupliosaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/yuzhoupliosaurus.jpg"
+  },
+  {
+    "id": "Kaatedocus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/kaatedocus.jpg"
+  },
+  {
+    "id": "Nebulasaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/nebulasaurus.jpg"
+  },
+  {
+    "id": "Hudiesaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/hudiesaurus.jpg"
+  },
+  {
+    "id": "Huanhepterus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/huanhepterus.jpg"
+  },
+  {
+    "id": "Klamelisaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/klamelisaurus.jpg"
+  },
+  {
+    "id": "Chuanjiesaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/chuanjiesaurus.jpg"
+  },
+  {
+    "id": "Anguanax",
+    "period": "Jurassic",
+    "image": "/dinosaurs/anguanax.jpg"
+  },
+  {
+    "id": "Rutellum",
+    "period": "Jurassic",
+    "image": "/dinosaurs/rutellum.jpg"
+  },
+  {
+    "id": "Compsognathus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/compsognathus.jpg"
+  },
+  {
+    "id": "Dryosaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/dryosaurus.jpg"
+  },
+  {
+    "id": "Abrosaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/abrosaurus.jpg"
+  },
+  {
+    "id": "Aviatyrannis",
+    "period": "Jurassic",
+    "image": "/dinosaurs/aviatyrannis.jpg"
+  },
+  {
+    "id": "Ammosaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/ammosaurus.jpg"
+  },
+  {
+    "id": "Shunosaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/shunosaurus.jpg"
+  },
+  {
+    "id": "Xuanhuaceratops",
+    "period": "Jurassic",
+    "image": "/dinosaurs/xuanhuaceratops.jpg"
+  },
+  {
+    "id": "Wiehenvenator",
+    "period": "Jurassic",
+    "image": "/dinosaurs/wiehenvenator.jpg"
+  },
+  {
+    "id": "Tehuelchesaurus",
+    "period": "Jurassic",
+    "image": "/dinosaurs/tehuelchesaurus.jpg"
+  },
+  {
+    "id": "Yaverlandia",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/yaverlandia.jpg"
+  },
+  {
+    "id": "Keresdrakon",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/keresdrakon.jpg"
+  },
+  {
+    "id": "Glyptodontopelta",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/glyptodontopelta.jpg"
+  },
+  {
+    "id": "Tsogtopteryx",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/tsogtopteryx.jpg"
+  },
+  {
+    "id": "Puertasaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/puertasaurus.jpg"
+  },
+  {
+    "id": "Clasmodosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/clasmodosaurus.jpg"
+  },
+  {
+    "id": "Asiatosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/asiatosaurus.jpg"
+  },
+  {
+    "id": "Tianzhenosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/tianzhenosaurus.jpg"
+  },
+  {
+    "id": "Zephyrosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/zephyrosaurus.jpg"
+  },
+  {
+    "id": "Geminiraptor",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/geminiraptor.jpg"
+  },
+  {
+    "id": "Macrurosaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/macrurosaurus.jpg"
+  },
+  {
+    "id": "Sellacoxa",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/sellacoxa.jpg"
+  },
+  {
+    "id": "Hypnovenator",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/hypnovenator.jpg"
+  },
+  {
+    "id": "Hesperonychus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/hesperonychus.jpg"
+  },
+  {
+    "id": "Elopteryx",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/elopteryx.jpg"
+  },
+  {
+    "id": "Umoonasaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/umoonasaurus.jpg"
+  },
+  {
+    "id": "Beishanlong",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/beishanlong.jpg"
+  },
+  {
+    "id": "Phosphatodraco",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/phosphatodraco.jpg"
+  },
+  {
+    "id": "Jinbeisaurus",
+    "period": "Cretaceous",
+    "image": "/dinosaurs/jinbeisaurus.jpg"
+  }
+]
