@@ -1,24 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  --background: #4b5129;
-  --foreground: #F2F0EF;
-  --triassic: #c97b4a;
-  --jurassic: #4a9b8e;
-  --cretaceous: #7a8fd6;
+  --background: #eaf6ff;
+  --foreground: #1f2a3d;
+  --triassic: #ff8a5c;
+  --triassic-soft: #ffe2cf;
+  --jurassic: #2fbf9f;
+  --jurassic-soft: #d3f5ea;
+  --cretaceous: #7c6cf0;
+  --cretaceous-soft: #e4dfff;
+  --sun: #ffd166;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-nunito);
+  --font-heading: var(--font-baloo);
 }
 
 body {
-  background: radial-gradient(circle at 50% -10%, #6b7440 0%, var(--background) 55%, #383d1f 100%);
+  background: linear-gradient(180deg, #bfe8ff 0%, #eaf6ff 35%, #eafaf0 75%, #e3f5da 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-nunito), Arial, Helvetica, sans-serif;
+}
+
+.font-heading {
+  font-family: var(--font-baloo), var(--font-nunito), sans-serif;
 }
 
 /* Hide scrollbar while keeping scroll behavior */
