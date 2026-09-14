@@ -43,11 +43,11 @@ function DinoCard({
       onClick={() => onOpen(dino)}
       whileHover={{ y: -6, rotate: -1 }}
       whileTap={{ scale: 0.95, rotate: 1 }}
-      className="group flex flex-col items-center shrink-0 h-full justify-end text-left cursor-pointer"
+      className="group flex flex-col items-center self-stretch shrink-0 min-h-0 justify-end text-left cursor-pointer"
       style={{ minWidth: "340px", maxWidth: "520px", width: "34vw" }}
     >
       <div
-        className="w-full grow flex items-center justify-center rounded-[28px] overflow-hidden shadow-xl p-3 border-4 transition-shadow duration-300 group-hover:shadow-2xl"
+        className="w-full grow min-h-0 flex items-center justify-center rounded-[28px] overflow-hidden shadow-xl p-3 border-4 transition-shadow duration-300 group-hover:shadow-2xl"
         style={{ backgroundColor: soft, borderColor: color }}
       >
         <Image
@@ -57,7 +57,7 @@ function DinoCard({
           width={480}
           height={600}
           sizes="(min-width: 1280px) 36vw, 85vw"
-          className="object-contain object-center w-full max-h-full h-auto rounded-2xl"
+          className="object-cover object-center w-full h-full rounded-2xl"
           priority
         />
       </div>
