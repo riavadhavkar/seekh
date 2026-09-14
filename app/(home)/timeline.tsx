@@ -7,8 +7,8 @@ import { getDinosaursForTimeline } from "@/library/database";
 import type { Dinosaur } from "@/library/database";
 
 const CAROUSEL_PX = 24; // horizontal padding
-const CAROUSEL_PY = 20; // vertical padding
-const GAP = 28; // gap between cells
+const CAROUSEL_PY = 12; // vertical padding
+const GAP = 40; // gap between cells
 
 const PERIOD_STYLE: Record<
   Dinosaur["period"],
@@ -44,28 +44,28 @@ function DinoCard({
       whileHover={{ y: -6, rotate: -1 }}
       whileTap={{ scale: 0.95, rotate: 1 }}
       className="group flex flex-col items-center shrink-0 h-full justify-end text-left cursor-pointer"
-      style={{ minWidth: "280px", maxWidth: "360px", width: "26vw" }}
+      style={{ minWidth: "340px", maxWidth: "520px", width: "34vw" }}
     >
       <div
-        className="w-full grow flex items-center justify-center rounded-[28px] overflow-hidden shadow-xl p-2 border-4 transition-shadow duration-300 group-hover:shadow-2xl"
+        className="w-full grow flex items-center justify-center rounded-[28px] overflow-hidden shadow-xl p-3 border-4 transition-shadow duration-300 group-hover:shadow-2xl"
         style={{ backgroundColor: soft, borderColor: color }}
       >
         <Image
           src={dino.image}
           alt={dino.id}
           fill={false}
-          width={320}
-          height={400}
-          sizes="(min-width: 1280px) 30vw, 80vw"
+          width={480}
+          height={600}
+          sizes="(min-width: 1280px) 36vw, 85vw"
           className="object-contain object-center w-full max-h-full h-auto rounded-2xl"
           priority
         />
       </div>
-      <span className="font-heading text-2xl font-bold text-foreground whitespace-nowrap text-center pt-4">
+      <span className="font-heading text-3xl font-bold text-foreground whitespace-nowrap text-center pt-5">
         {dino.id}
       </span>
       <span
-        className="text-xs font-bold uppercase tracking-wide whitespace-nowrap text-center pt-1 pb-2 px-3 rounded-full"
+        className="text-sm font-bold uppercase tracking-wide whitespace-nowrap text-center pt-2 pb-3 px-4 rounded-full"
         style={{ color: "#1f2a3d", backgroundColor: soft }}
       >
         {PERIOD_STYLE[dino.period].emoji} {dino.period}
@@ -75,7 +75,7 @@ function DinoCard({
       </span>
       <div className="w-full flex justify-center pb-0">
         <div
-          className="w-3 h-6 rounded-full shrink-0 ring-4 ring-white"
+          className="w-4 h-8 rounded-full shrink-0 ring-4 ring-white"
           aria-hidden
           style={{ backgroundColor: color, boxShadow: "0 2px 12px 1px rgba(0,0,0,0.2)" }}
         />
@@ -99,7 +99,7 @@ function TimelineStrip({
         ))}
       </div>
       <div
-        className="h-2 w-full rounded-full -mt-1 shrink-0"
+        className="h-3 w-full rounded-full -mt-1 shrink-0"
         style={{
           background:
             "linear-gradient(90deg, var(--triassic), var(--jurassic), var(--cretaceous))",
@@ -184,7 +184,7 @@ function DinoModal({ dino, onClose }: { dino: Dinosaur; onClose: () => void }) {
         </span>
         {typeof dino.first_appearance_ma === "number" && (
           <p className="text-sm text-foreground/70 mt-3 text-center">
-            Roamed the Earth about{" "}
+            roamed the Earth about{" "}
             <strong>{Math.round(dino.first_appearance_ma)} million years ago</strong>!
           </p>
         )}
@@ -196,7 +196,7 @@ function DinoModal({ dino, onClose }: { dino: Dinosaur; onClose: () => void }) {
           className="font-heading mt-5 flex items-center gap-2 px-6 py-3 rounded-full font-bold text-white shadow-lg cursor-pointer"
           style={{ backgroundColor: color }}
         >
-          🔊 Hear the name
+          🔊 hear the name
         </motion.button>
       </motion.div>
     </motion.div>
